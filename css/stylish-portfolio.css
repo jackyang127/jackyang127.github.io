@@ -22,6 +22,11 @@ body {
     vertical-align: middle;
 }
 
+.classname {
+    
+
+}
+
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
@@ -133,6 +138,15 @@ hr.small {
     top: 0;
     right: 0;
 }
+
+#personal-logo {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
 
 #sidebar-wrapper.active {
     right: 250px;
