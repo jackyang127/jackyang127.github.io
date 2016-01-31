@@ -164,7 +164,8 @@ hr.small {
 #jylogo {
     width: 47.438px;
     height: 44px;
-
+    padding: 0px;
+    border: 0px;
 }
 
 #sidebar-wrapper.active {
