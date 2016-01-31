@@ -270,3 +270,19 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+/* resume styles posted here */
+
+.bg-image-one {
+    background-image: url("/Users/Jack/jackyang127.github.io/images/berkeley.jpg");
+}
+
+.bg-image {
+    position: relative;
+    background-size: cover;
+    height: 130px;
+    text-align: center;
+    background-position: center center;
+}
+
+
