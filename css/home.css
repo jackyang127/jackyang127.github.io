@@ -1,2 +1,8 @@
 .bg-image-one{background-image:url("/images/berkeley.jpg")}
 .bg-image{position:relative;background-position:center center;background-size:cover;height:130px;text-align:center}
+.crossed-seperator{height:50px;margin:0;padding:0}
+.crossed-seperator path.one{fill:#eee}
+.crossed-seperator path.two{fill:#fffefb}
+.crossed-seperator-bottom{position:absolute;left:0;right:0;bottom:-10px}
+.crossed-seperator-top{position:absolute;left:0;right:0;top:-10px}
+.crossed-seperator-bottom{position:absolute;left:0;right:0;bottom:-10px}
