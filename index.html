@@ -22,6 +22,14 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+      var img = '<img src="newsnapcode.png" />';
+
+      $("#blob").popover({ title: 'Snapcode', content: img, html:true });
+    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,9 +56,22 @@
           <h1>Jack Yang</h1>
         </div>
       </div>
-      <div clas"row">
+      <div class="row">
         <div class="col-lg-4 col-lg-offset-4 text-center top-intro">
-          <h4>Welcome. Come get to know me and check out my <a href="resume.html">resume</a></h4>
+          <h4>Welcome. Come get to know me and check out some of my <a href="resume.html">work</a></h4>
+        </div>
+      </div>
+      <!-- Links -->
+      <div class="row links">
+        <div class="col-lg-12">
+          <h5>Links</h5>
+          <ul>
+            <li><a href="https://www.facebook.com/jackyang127">Facebook</a></li>
+            <li><a href="https://www.instagram.com/jackyang127/">Instagram</a></li>
+            <li><a href="#" id="blob" rel="popover">Snapchat</a></li>
+            <li><a href="https://github.com/jackyang127">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/jackyang127">Linkedin</a></li>
+          </ul>
         </div>
       </div>
     </div>
