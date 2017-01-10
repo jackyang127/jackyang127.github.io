@@ -79,7 +79,14 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+      var img = '<img src="newsnapcode.png" />';
 
+      $("#blob").popover({ title: 'Snapcode', content: img, html:true });
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
