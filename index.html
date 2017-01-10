@@ -74,6 +74,9 @@
 
     <!-- jQuery -->
     <script>
+    $('body').on('hidden.bs.popover', function (e) {
+    $(e.target).data("bs.popover").inState = { click: false, hover: false, focus: false }
+    });
       $(function () {
         $('[data-toggle="popover"]').popover()
       })
