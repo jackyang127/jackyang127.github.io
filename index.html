@@ -33,18 +33,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script>
-    $('body').on('hidden.bs.popover', function (e) {
-    $(e.target).data("bs.popover").inState = { click: false, hover: false, focus: false }
-    });
-      $(function () {
-        $('[data-toggle="popover"]').popover()
-      })
-      var img = '<img src="newsnapcode1.png" />';
-
-      $("#blob").popover({title: "jackyang127", placement:"bottom", content: img, html:true });
-    </script>
-
 </head>
 
 <body>
@@ -100,7 +88,7 @@
       })
       var img = '<img src="newsnapcode1.png" />';
 
-      $("#blob").popover({title: "jackyang127", placement:"top", content: img, html:true });
+      $("#blob").popover({title: "jackyang127", placement:"auto top", content: img, html:true });
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
